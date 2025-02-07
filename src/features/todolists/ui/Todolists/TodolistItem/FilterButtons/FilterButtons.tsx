@@ -1,4 +1,4 @@
-import {containerSx} from "@/TodolistItem.styles.ts";
+import {containerSx} from "@/common/styles/container.styles.ts";
 import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import {useAppDispatch} from "@/common/hooks/useAppDispatch.ts";
