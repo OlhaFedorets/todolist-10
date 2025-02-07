@@ -1,4 +1,3 @@
-import {getListItemSx} from "@/TodolistItem.styles.ts";
 import Checkbox from "@mui/material/Checkbox";
 import {EditableSpan} from "@/common/components/EditableSpan/EditableSpan.tsx";
 import IconButton from "@mui/material/IconButton";
@@ -8,6 +7,7 @@ import {changeTaskStatusAC, changeTaskTitleAC, deleteTaskAC, Task} from "@/featu
 import type {ChangeEvent} from "react";
 import {useAppDispatch} from "@/common/hooks/useAppDispatch.ts";
 import {Todolist} from "@/features/todolists/model/todolists-reducer.ts";
+import {getListItemSx} from "./TaskItem.styles.ts"
 
 
 type Props = {
